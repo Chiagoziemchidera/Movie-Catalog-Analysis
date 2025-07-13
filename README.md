@@ -50,6 +50,7 @@ Key cleaning steps conducted in **Jupyter Notebook - Python**  included:
 - **Encoding Correction**: Resolved mojibake issues caused by inconsistent character encoding using encoding detection and standardization.  
 - **Duplicate Removal**: Removed four exact duplicate records based on title and release year.  
 - **Missing Value Imputation**: Filled missing values in non-essential fields with placeholder text to maintain dataset consistency.
+See the cleaning and transformation Python code here
 
 To enable detailed frequency and categorical analysis, columns containing multivalued entries such as `listed_in` (genres), `country`, `director`, and `cast` were *exploded* into separate dimension tables. This normalization expanded the dataset as follows:
 
